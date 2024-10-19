@@ -73,7 +73,7 @@ elif selected_page == "Home":
                 st.subheader("  :bulb: MySQL")
 
 elif selected_page == "Analysis Zone":
-    df = pd.read_csv("D:/Imp. Files/GUVI Python/Placement/Projects/github_cleaned_data.csv")
+    df = pd.read_csv("github_cleaned_data.csv")
     tab_overview, tab_Topic_wise = st.tabs(["**Overview**", "**Topic-wise**"])
     with st.container(border=True): 
         with tab_overview:
