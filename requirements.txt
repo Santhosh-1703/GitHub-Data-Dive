@@ -9,3 +9,11 @@ matplotlib-inline==0.1.6
 scipy==1.11.2
 seaborn==0.13.0
 plotly==5.23.0
+requests
+json
+datetime
+plotly
+mysql-connector-python
+pymysql
+sqlalchemy
+Pillow
