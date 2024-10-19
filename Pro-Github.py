@@ -58,7 +58,7 @@ elif selected_page == "Home":
         st.write("[:open_book: Learn More  >](https://docs.github.com/en)")
         if st.button("Click here to know about Github"):
             col1, col2 = st.columns(2)
-            col1.image(Image.open(r"D:/Project - Guvi/githubdatadrive/git.jpg"), width=500)
+            col1.image(Image.open(r"git.jpg"), width=500)
             with col2:
                 st.header(':blue[Github info]', divider='rainbow')
                 st.subheader(":star: GitHub is built on top of Git, a distributed version control system, allowing multiple developers to work on projects simultaneously. It enables users to track changes, revert to previous versions, and collaborate on code efficiently through features like branching, pull requests, and issue tracking.")
